@@ -42,7 +42,7 @@ add_subdirectory(lib)
 #     ${PRIMARY_HEADER_FILES}
 #     ${PRIMARY_SOURCE_FILES}
 # )
-# add_executable(${PRIMARY_OUTPUT_NAME} STATIC
+# add_executable(${PRIMARY_OUTPUT_NAME}
 #     ${PRIMARY_HEADER_FILES}
 #     ${PRIMARY_SOURCE_FILES}
 # )
