@@ -29,8 +29,20 @@ add_subdirectory(lib)
 
 ### Local Targets
 
-add_subdirectory(inc)
-add_subdirectory(src)
+# set(PRIMARY_HEADER_FILES
+#     "inc/<some-header.hh>"
+#     "..."
+# )
+# set(PRIMARY_SOURCE_FILES
+#     "src/<some-source.cpp>"
+#     "..."
+# )
 
-#add_library("${PRIMARY_OUTPUT_NAME}" ...)
-#add_executable("${PRIMARY_OUTPUT_NAME}" ...)
+# add_library(${PRIMARY_OUTPUT_NAME} STATIC
+#     ${PRIMARY_HEADER_FILES}
+#     ${PRIMARY_SOURCE_FILES}
+# )
+# add_executable(${PRIMARY_OUTPUT_NAME} STATIC
+#     ${PRIMARY_HEADER_FILES}
+#     ${PRIMARY_SOURCE_FILES}
+# )
