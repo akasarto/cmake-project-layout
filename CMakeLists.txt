@@ -19,11 +19,11 @@ set(FETCHCONTENT_BASE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/deps
 
 project("${PRIMARY_OUTPUT_NAME}" VERSION 1.0.0 LANGUAGES C CXX)
 
-### Public/External Dependencies
+### External Dependencies
 
 add_subdirectory(deps)
 
-### Private Dependencies
+### Local Dependencies
 
 add_subdirectory(lib)
 
