@@ -2,6 +2,8 @@
 ![Aa]rtifacts/readme.md
 [Bb]uild/*
 ![Bb]uild/readme.md
+[Dd]eps/*
+![Dd]eps/readme.md
 _deps
 .deps
 .vs
